@@ -1,4 +1,4 @@
-//#46368100
+//#U99350821
 //Implemeting Parent/Super Class which is = Car
 class Car {
     // Super constructor
@@ -38,7 +38,7 @@ class Ev extends Car {
         this.speedvalue=this.speedValue+20;
         this.batteryCharge=this.batteryCharge-1;
 
-        console.log( `${this.makeName} going at ${this.speedValue } km/h, with a charge of ${this.batteryCharge}%`);
+        console.log( `${this.makeModel} going at ${this.speedValue } km/h, with a charge of ${this.batteryCharge}%`);
 
         
     }
